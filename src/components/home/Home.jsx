@@ -1,8 +1,7 @@
 import "./Home.css"
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-//import Jugar from './jugar/Jugar';
-import Filter
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [questions, setQuestions] = useState([]);
@@ -11,7 +10,7 @@ const Home = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await axios.get('https://opentdb.com/api.php?amount=50');
+        const response = await axios.get(`https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`);
         setQuestions(response.data.results);
       } catch (error) {
         console.error('Error fetching trivia questions:', error);
@@ -20,10 +19,26 @@ const Home = () => {
     fetchQuestions();
   }, []);
 
-  return (
+  
+
+  return 
     <>
+    <select>
+      <option value="17">Ciencias y Naturaleza</option>
+      <option value="21">Deportes</option>
+      <option value="23">Historia</option>
+      <option value="22">Geografia</option>
+      <option value="25">Arte</option>
+    </select>
+
+    <select>
+
+
     
-     {/*<Jugar questions={questions}/>*/}    </>
+    <button><Link to="/Jugar">Jugar</Link></button>
+
+    
+     </>
   );
 };
 
