@@ -1,7 +1,6 @@
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import '../styles/App.css';
 import { useState } from 'react';
-import Profile from './profile/Profile';
 import Login from "./login/Login";
 import NavBar from "./NavBar/NavBar";
 import Home from "./home/Home";
@@ -59,12 +58,12 @@ const App = () => {
      
 
       <Routes>
-      <Route path="/Home" element={<Home handleQuestions={handleQuestions}/>}/>
-      <Route path="/Results" element={<Results/>} />
+      <Route path="/Home" element={<AuthRoute user={user} component={<Home handleQuestions={handleQuestions}/>} />}/>
+      <Route path="/Results" element={<AuthRoute user={user} component={<Results/>}/>} />
       <Route path="/About" element={<About/>} />
       <Route path="/Jugar" element={<Jugar questions={questions}/>} />
       <Route path="/Login" element={<Login loginUser={loginUser} loginError={loginError}/>} />
-      <Route path="/profile" element={<AuthRoute user={user} component={<Profile user={user}/>}/>} />
+      
       
       </Routes>
     </>

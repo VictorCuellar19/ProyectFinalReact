@@ -36,7 +36,7 @@ console.log(difficulty);
 
   
   return (
-    <>
+    <div className="divFilters">
       <select onChange={changeCategory}>
         <option value="17">Ciencias y Naturaleza</option>
         <option value="21">Deportes</option>
@@ -52,7 +52,7 @@ console.log(difficulty);
       </select>
 
     <button><Link to="/Jugar">Jugar</Link></button>
-  </>
+  </div>
   )};
   
 

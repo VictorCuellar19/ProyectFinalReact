@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Login.css";
 
 const initial_state ={
-    username:"",
+    user:"",
     password:""
 }
 
@@ -29,8 +29,8 @@ const Login = ({loginUser, loginError}) => {
         <div className="divLogin">
             <form className= "formLogin" onSubmit={(event) => event.preventDefault()}>
 
-                <label htmlFor="username">Username</label>
-                <input type="text" name="username" id="username" onChange={handleInput} value={formData.username}/>
+                <label htmlFor="user">User</label>
+                <input type="text" name="user" id="user" onChange={handleInput} value={formData.user}/>
 
                 <label htmlFor="password">Password</label>
                 <input type="password" name="password" id="password" onChange={handleInput} value={formData.password}/>
