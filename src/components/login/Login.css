@@ -1,0 +1,37 @@
+
+.divLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.formLogin {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: greenyellow;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.jugarbtn {
+    color: greenyellow;
+    margin-top: 30px;
+    background-color: transparent;
+    border: solid;
+    border-color: greenyellow;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: double;
+    padding: 10px;
+    font-size: x-large;
+}
+.jugarbtn:hover{
+    text-decoration: underline;
+}
