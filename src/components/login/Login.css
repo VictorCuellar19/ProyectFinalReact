@@ -1,14 +1,13 @@
-
 .divLogin{
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 
 }
 .formLogin {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;

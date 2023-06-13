@@ -1,5 +1,6 @@
 .question-card{
     list-style: none;
+
 }
 
 .container{
@@ -7,10 +8,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .button{
-    width: 50%;
+    width: 20%;
     margin: 10px 0;
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
 }
