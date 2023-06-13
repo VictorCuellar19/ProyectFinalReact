@@ -1,0 +1,24 @@
+.divAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: raw;
+}
+
+img{
+    width: 180px;
+    height: 300px;
+}
+
+section{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

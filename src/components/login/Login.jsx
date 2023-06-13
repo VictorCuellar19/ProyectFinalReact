@@ -6,12 +6,12 @@ const initial_state ={
     password:""
 }
 
-const Login = ({loginuser, loginError}) => {
+const Login = ({loginUser, loginError}) => {
 
     const [formData, setFormdata] = useState({})
 
-    const handleSumitForm = () => {
-        loginuser(formData);
+    const handleSubmitForm = (event) => {
+        loginUser(formData);
 
     }
 
@@ -35,7 +35,7 @@ const Login = ({loginuser, loginError}) => {
                 <label htmlFor="password">Password</label>
                 <input type="password" name="password" id="password" onChange={handleInput} value={formData.password}/>
 
-                <input className="jugarbtn" type="submit" value="Login" onClick={handleSumitForm}/>
+                <input className="jugarbtn" type="submit" value="Login" onClick={handleSubmitForm}/>
                 <input className="jugarbtn" type="submit" value="Cancelar" onClick={handleCancel}/>
 
             </form>
