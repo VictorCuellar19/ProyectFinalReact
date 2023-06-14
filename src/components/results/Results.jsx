@@ -1,20 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+import "./Results.css"
 
 const Results = ({ correctAnswers }) => {
 
   return (
-    <div>
-      <h2>Ayudanos a seguir creciendo</h2>
-      <form>
-        <label>Category</label>
-        <input type"radio" name></input>
-        <label>Difficulty</label>
-        <input type"radio"></input>
-
-        <input type"text"></input>
-        <input type"radio" ></input>
-        <input type"radio"></input>
-      </form>
+    <div className="divResult">
+      <h2>Resultados</h2>
+      <p>Respuestas correctas: "Un elefante, se balanceaba, sobre la tela de una araaaaañaaaa, como veía que no se caía, fueron a llamar a otro elefaaaaaaanteee! Dos elefantes, se balanceaban..."{correctAnswers}</p>
     </div>
   );
 };

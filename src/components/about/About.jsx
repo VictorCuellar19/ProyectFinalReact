@@ -18,6 +18,10 @@ function about() {
         <img src="https://vignette3.wikia.nocookie.net/lossimpson/images/6/64/Kearney_Zzyzwicz.png/revision/latest?cb=20150427044337&path-prefix=es" alt="Victor" />
         <h3>Victor</h3>
         </section>
+        <section>
+        <img src="https://static.simpsonswiki.com/images/thumb/f/f6/Stephen_Hawking_character.png/250px-Stephen_Hawking_character.png" alt="Chat GPT" />
+        <h3>Chat GPT</h3>
+        </section>
     </div>
     </div>
   )
