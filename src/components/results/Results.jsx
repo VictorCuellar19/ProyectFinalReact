@@ -4,8 +4,17 @@ const Results = ({ correctAnswers }) => {
 
   return (
     <div>
-      <h2>Resultados</h2>
-      <p>Respuestas correctas: {correctAnswers}</p>
+      <h2>Ayudanos a seguir creciendo</h2>
+      <form>
+        <label>Category</label>
+        <input type"text"></input>
+        <label>Difficulty</label>
+        <input type"text"></input>
+
+        <input type"text"></input>
+        <input type"radio" ></input>
+        <input type"radio"></input>
+      </form>
     </div>
   );
 };

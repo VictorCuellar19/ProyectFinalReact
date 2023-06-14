@@ -14,14 +14,15 @@ const Home = ({handleQuestions}) => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await axios.get(`https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`);
-        handleQuestions(response.data.results);
+        const response = await axios.get("http://localhost:3000/api");
+        
+        handleQuestions(response.data);
       } catch (error) {
         console.error('Error fetching trivia questions:', error);
       }
     };
     fetchQuestions();
-  }, [category, difficulty]);
+  }, []);
 
 const changeCategory = (event) => {
   setCategory(event.target.value)
