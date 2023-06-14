@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./Questioncard.css"
 
 
@@ -16,10 +16,10 @@ const QuestionCard = ({ questions }) => {
     return (
       <div className='container'>
         <h2>{answer.question}</h2>
-        
+        <div className='contenedorBotones'>
         {incorrectAnswer}
         <button className='button'>{answer.correct_answer}</button>
-     
+     </div>
       </div>
     )
    

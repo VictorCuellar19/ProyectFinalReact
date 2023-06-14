@@ -1,0 +1,122 @@
+{
+    "api": [
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these countries is NOT a part of the Asian continent?",
+        "correct_answer": "Suriname",
+        "incorrect_answers": [
+          "Georgia",
+          "Russia",
+          "Singapore"
+        ]
+      },
+      {
+        "category": "Entertainment: Music",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+        "correct_answer": "Blood Sugar Sex Magik",
+        "incorrect_answers": [
+          "One Hot Minute",
+          "By the Way",
+          "Stadium Arcadium"
+        ]
+      },
+      {
+        "category": "Entertainment: Books",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What position does Harry Potter play in Quidditch?",
+        "correct_answer": "Seeker",
+        "incorrect_answers": [
+          "Beater",
+          "Chaser",
+          "Keeper"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many Chaos Emeralds are there in the &quot;Sonic the Hedgehog&quot; universe?",
+        "correct_answer": "7",
+        "incorrect_answers": [
+          "6",
+          "8",
+          "14"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many flagship monsters appear in Monster Hunter Gernerations?",
+        "correct_answer": "4",
+        "incorrect_answers": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "category": "Science: Mathematics",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
+        "correct_answer": "One Quintillionth",
+        "incorrect_answers": [
+          "One Billionth",
+          "One Quadrillionth",
+          "One Septillionth"
+        ]
+      },
+      {
+        "category": "Entertainment: Video Games",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the Zombies mode of &quot;Call of Duty: Black Ops&quot;, what is the &quot;Pack-A-Punched&quot; version of the &quot;Galil&quot; called?",
+        "correct_answer": "Lamentation",
+        "incorrect_answers": [
+          "Galvanized Atomic Lead Insertion Liquidator",
+          "Gabig",
+          "Predictive Death Wish"
+        ]
+      },
+      {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many values can a single byte represent?",
+        "correct_answer": "256",
+        "incorrect_answers": [
+          "8",
+          "1",
+          "1024"
+        ]
+      },
+      {
+        "category": "General Knowledge",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Originally another word for poppy, coquelicot is a shade of what?",
+        "correct_answer": "Red",
+        "incorrect_answers": [
+          "Green",
+          "Blue",
+          "Pink"
+        ]
+      },
+      {
+        "category": "General Knowledge",
+        "type": "boolean",
+        "difficulty": "medium",
+        "question": "Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+          "False"
+        ]
+      }
+    ]
+} 

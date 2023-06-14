@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 
-const Results = () => {
-  const [correctAnswers, setCorrectAnswers] = useState(0);
-
-  // Resto del código del componente...
+const Results = ({ correctAnswers }) => {
 
   return (
     <div>
-      {/* Resto del contenido del componente */}
+      <h2>Resultados</h2>
+      <p>Respuestas correctas: {correctAnswers}</p>
     </div>
   );
 };
