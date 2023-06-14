@@ -7,9 +7,9 @@ const Results = ({ correctAnswers }) => {
       <h2>Ayudanos a seguir creciendo</h2>
       <form>
         <label>Category</label>
-        <input type"text"></input>
+        <input type"radio" name></input>
         <label>Difficulty</label>
-        <input type"text"></input>
+        <input type"radio"></input>
 
         <input type"text"></input>
         <input type"radio" ></input>
